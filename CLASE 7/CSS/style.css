@@ -1,0 +1,99 @@
+header {
+    text-align: center;
+    
+    background: #E6E6E6;
+}
+
+main {
+    width: 1041px;
+    height: auto;
+    margin: 117px auto 163px auto;
+    margin-top: 117px;
+    margin-bottom: 163px;  
+}
+
+img {     
+    width: 100px;
+    height: 147px;
+}
+
+h1 {
+text-align: center;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 84.69%;
+letter-spacing: 0.4em;
+padding-top: 10px;
+padding-bottom: 10px;
+/* identical to box height, or 30px */
+
+
+color: #005677;
+background-color: #C4C4C4;
+}
+h2 {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    padding: 6px 7px 7px 9px;
+    letter-spacing: 0.4em;
+/* identical to box height, or 17px */
+
+    color: #005677;
+    background-color:#C4C4C4;
+}
+
+h3 {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+/* identical to box height, or 17px */
+
+
+    color: #FFFFFF;
+}
+
+ul li span {
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    /* identical to box height, or 13px */
+    
+    
+    color: #000000;
+}
+
+dt {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+/* or 13px */
+
+
+color: #000000;
+}
+
+footer {
+    
+    text-align: center;
+    padding: 9px auto 9px auto;
+
+    background: #005677;
+}
+
+img.redes{
+    width: 20px;
+    height: 20px;
+
+
+}
