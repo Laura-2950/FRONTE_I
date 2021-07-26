@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-    margin: 0px;    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
 }
 
 body {
@@ -31,11 +33,13 @@ h1 {
     padding: 28px 0px 26px 28px;
     background-color:#00669F;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    
+}
+header{
     position: sticky;
     top: 0px;
     z-index: 10;
 }
-
 h2 {
     background-color:#1CD1B0;
     margin-left: -10;
@@ -97,8 +101,10 @@ div{
     background-color:#00669F;
     width: 129px;
     height: 49px;
-    margin: auto;    
+    margin: auto;
+    
 }
 a {color: white;
-    text-decoration: none;    
+    text-decoration: none;
+    padding: auto;
 }
