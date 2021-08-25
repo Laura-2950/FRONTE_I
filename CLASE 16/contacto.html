@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +15,18 @@
     </header>
         <main class="contContacto">
         <form class="contacto" action="/contacto" method="POST">
-            <input type="text" name="nombre" id="nombre" >
-            <input type="email" name="correoElectronico" >
-            <input type="text" name="nombre" >
+            <h1>Contacto</h1>
+            <label for="nombre"></label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido" >
+            <label for="correoElectronico"></label>
+            <input type="email" name="correoElectronico" placeholder="Correo Electrónico">
+            <label for="comentario"></label>
             <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-            <button></button>
-        </form>
+            <div class="botones">
+                <button type="reset" >Resetear</button>
+                <button class="enviar" type="submit" >Entrar</button>
+            </div>
+        </form> 
         </main>
     <footer>
         <p>Todos los derechos reservados a FRONT END 1</p>

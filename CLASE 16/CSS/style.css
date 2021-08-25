@@ -7,7 +7,17 @@
 
 body {
     font-family: 'Roboto', sans-serif; 
-    
+    position: relative;
+}
+i{
+    background: #00669F;
+    border-radius: 50%;
+    padding: 23px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%; 
+    right: 34px;
 }
 main{
     width: 80%;
@@ -96,7 +106,41 @@ form.contacto{
     justify-content: center;
     align-items: center;
 }
+button{
+    width: 300px;
+    height: 53.79px;
+    background: #888888;
+    border-radius: 23.011px;
+}
+input{
+    width: 620px;
+    height: 60px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+}
+textarea{
+    width: 620px;
+    height: 251px;
+    border: 1.53407px solid #000000;
+    box-sizing: border-box;
+    margin-bottom: 47px;
+}
+form div.botones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    
+}
 
+button.enviar{
+    background: #1CD1B0;
+    
+}
 
 section{
     width: 300px;

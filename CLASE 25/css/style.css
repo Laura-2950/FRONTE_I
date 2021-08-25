@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+h3 {
+  text-align: center;
+  font-size: 1rem;
+}
+.exercice {
+  display: flex;
+  width: 100%;
+}
+.exercice-complete img {
+  width: 100%;
+  height: 100%;
+}
+.exercice-complete {
+  background: blue;
+  width: 50%;
+}
+.excercice-incomplete {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 2 1fr;
+  grid-template-rows: 2 1fr;
+  grid-template-areas: "imagen2 imagen3" "imagen4 imagen1";
+}
+
+.grid-one {
+  grid-area: imagen1;
+}
+
+.grid-two {
+  grid-area: imagen2;
+}
+
+.grid-three {
+  grid-area: imagen3;
+}
+
+.grid-four {
+  grid-area: imagen4;
+}
+
