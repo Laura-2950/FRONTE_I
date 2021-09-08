@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+header {
+    text-align: center;
+    background-image:url(../IMG/5583949.jpg);
+    background-size: cover;
+}
+
+main {
+    width: 1041px;
+    height: auto;
+    margin: 117px auto 163px auto;
+    margin-top: 117px;
+    margin-bottom: 163px;
+    font-family: 'Roboto', sans-serif;  
+}
+
+img {     
+    width: 100px;
+    height: auto;
+    margin-top: 3%;
+}
+
+h1 {
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 84.69%;
+letter-spacing: 0.4em;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 0%;
+/* identical to box height, or 30px */
+
+
+color: #005677;
+}
+
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    padding: 6px 7px 7px 9px;
+    letter-spacing: 0.4em;
+/* identical to box height, or 17px */
+
+    color: #005677;
+    background-color:#ebe5e5;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+/* identical to box height, or 17px */
+
+
+    color: #FFFFFF;
+}
+
+ul li span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    /* identical to box height, or 13px */
+    
+    
+    color: #000000;
+}
+
+dt span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    margin: 0% 0% 2% 3%;
+    
+
+color: #000000;
+}
+
+
+dd {
+    margin-left: 11%;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1em;
+    padding: 3% 3%;
+    
+    background: #005677;
+}
+
+img.redes{
+    width: 20px;
+    height: 20px;
+
+
+}
+
+i.fab {
+    font-size: 30px;
+    color: white;
+  }  
